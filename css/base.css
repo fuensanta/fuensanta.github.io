@@ -1,48 +1,201 @@
-* {
-    box-sizing: border-box;
+#container {
+    background: url(fuensanta.github.io/img/bg.jpg)
+        }
+
+
+body: 
+{
+     background-color:#E5E5FF;
+     background-repeat: repeat;
+     background-attachment: fixed;
+     color:#666666;
+     font-family: Gill Sans, Arial, sans-serif;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, nav, section {
+     display: block;
+}
+
+
+
+#wrapper {
+width:980px;
+background-image:linear-gradient(#ccccff)
+margin-left:auto;
+margin-right:auto;
+border: solid 16px #ccccff;
+
+}
+
+
+header {
+     width: auto;
+     padding:10px;
+     background: #ccccff 
+}
+
+nav {
+width:160px;
+padding:10px;
+float:left;
+background-image:url(img/bg.jpg);
+padding-left:20px;
+}
+
+article {
+width:720px;
+margin-left:210px;
+padding-right:10px;
+padding-bottom:15px;
+}
+
+footer {
+padding:10px 10px 10px;
+width:940px;
+text-align:center;
+color:#666666;
+border-top: dotted 3px;
+}
+
+footer p {
+text-align:center;
+text-decoration-color: #ccccff
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+color: #666666;
+font-family:Gill Sans, Arial, sans-serif;
 }
 
 h1 {
-    color: #ff4a00;
-    font-size: 40px;
+margin:10
+    px;
 }
 
 h2 {
-    font-size: 22px;
-    font-family: arial; helvetica; sans-serif;
-    color: #0021a5;
+font-size:30px;
 }
 
-p {
-    font-size:16px;
-    font-family: arial; helvetica; sans-serif;
-    line-height: 24px;
+h3 {
+font-size:25px;
+}
+
+/*Paragraph Styles*/
+
+p{
+text-align:justify;
+text-indent:0px;
+}
+
+/*Link Styles*/
+
+a {
+text-decoration:none;
+}
+
+a:link {
+color:#666666;
+}
+
+a:visited {
+color:#B2B2B2;
+}
+
+a:hover {
+color:#E0FFB2;
+text-decoration:underline;
+}
+
+a:active {
+color:purple;
+}
+
+a:focus {
+color:#ccccff;
+}
+
+
+
+
+nav ul {
+margin:0;
+padding:0;
+}
+
+nav li {
+list-style-type:none;
+margin:10px 10px 10px 10px;
+}
+
+nav a:link, nav a:visited {
+font-size:24px;
+background-color: #ccccff;
+color:#666666;
+border: solid 5px #fff;
+width:130px;
+display:block;
+text-align:center;
+height:32px;
+padding-top:3px;
+}
+
+nav a:hover {
+text-decoration:none;
+background:#666666;
+color: white;
+}
+
+
+footer ul {
+margin:0;
+padding:0;
+}
+
+footer li {
+list-style-type:none;
+display:inline;
+padding:0 15px;
+border-left:solid black 1px;
+}
+
+.last {
+border-right:solid black 1px;
+}
+
+.first {
+border-left:none;
+}
+
+
+/*Image Styles*/
+
+figure {
+     padding:0px;
+     margin:0px;
+}
+
+figcaption {
+     color:black;
+     font-style:italic;
+     font-size:10px;
 }
 
 img {
-    border: 5px solid #cccccc
-    margin: 0 25% 0 25%
-    padding: 1%; /*TRouBLe */
-    width: 50%;
+     border-style:solid;
+     border-color:black;
+     border-width:0px;
 }
 
-table {
-    font-size: 16px;
-    font-family: arial; helvetica; sans-serif;
+.left {
+     float:left;
+     margin-right:10px;
+     margin-bottom:10px;
 }
 
-ul {
-    font-size: 16px;
-    font-family: arial; helvetica; sans-serif;
-}
-
-ol {
-    font-size:16px;
-    font-family: arial; helvetica; sans-serif;
-}
-
-dl {
-    font-size: 16px
-    font-family: arial; helvetica; sans-serif;
+.right{
+     float:right;
+     margin-left:10px;
+     margin-bottom:10px;
 }
 
