@@ -1,26 +1,22 @@
-#container {
-    background: url(fuensanta.github.io/img/bg.jpg)
-        }
 
 
 body: 
 {
-     background-color:#E5E5FF;
+     background-image:url(/img/bg.jpg);
      background-repeat: repeat;
      background-attachment: fixed;
-     color:#666666;
      font-family: Gill Sans, Arial, sans-serif;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, nav, section {
      display: block;
+     font-family:Gill Sans, century gothic, sans-serif
 }
 
 
 
 #wrapper {
 width:980px;
-background-image:linear-gradient(#ccccff)
 margin-left:auto;
 margin-right:auto;
 border: solid 16px #ccccff;
@@ -32,6 +28,7 @@ header {
      width: auto;
      padding:10px;
      background: #ccccff 
+     
 }
 
 nav {
