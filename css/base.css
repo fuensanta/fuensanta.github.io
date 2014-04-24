@@ -1,9 +1,6 @@
-
-
 body: 
 {
-     background-image:url(../img/bg.jpg);
-         
+     background-color:666666;
      background-repeat: repeat;
      background-attachment: fixed;
      font-family: Gill Sans, Arial, sans-serif;
@@ -17,23 +14,22 @@ article, aside, figcaption, figure, footer, header, hgroup, nav, section {
 
 
 #wrapper {
-width:980px;
+width:1024px;
 margin-left:auto;
 margin-right:auto;
-border: solid 16px #ccccff;
-
+border: solid 40px #ccccff;
 }
 
 
 header {
      width: auto;
      padding:10px;
-     background: #ccccff 
-     
+     background: white
+    
 }
 
 nav {
-width:160px;
+width:200px;
 padding:10px;
 float:left;
 background-image:url(img/bg.jpg);
@@ -41,7 +37,7 @@ padding-left:20px;
 }
 
 article {
-width:720px;
+width:760px;
 margin-left:210px;
 padding-right:10px;
 padding-bottom:15px;
@@ -49,7 +45,7 @@ padding-bottom:15px;
 
 footer {
 padding:10px 10px 10px;
-width:940px;
+width:1000px;
 text-align:center;
 color:#666666;
 border-top: dotted 3px;
@@ -97,7 +93,7 @@ color:#666666;
 }
 
 a:visited {
-color:#B2B2B2;
+color:purple;
 }
 
 a:hover {
@@ -155,6 +151,7 @@ list-style-type:none;
 display:inline;
 padding:0 15px;
 border-left:solid black 1px;
+background-color: #ccccff
 }
 
 .last {
